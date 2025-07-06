@@ -23,7 +23,7 @@
 
 ## Como usar (Python)
 
-> 1️⃣ Clone este repositório ([PDF Slicer no GitHub](https://github.com/caue-r/PDF-Slicer)) ou baixe os arquivos manualmente.  
+> 1️⃣ Clone este repositório ou [baixe os arquivos manualmente](https://github.com/caue-r/PDF-Slicer/archive/refs/heads/main.zip).  
 > 
 > 2️⃣ Instale as dependências:
 > ```bash
@@ -41,7 +41,7 @@
 
 ## Como usar (Executável)
 
-> Baixe o arquivo `.exe` na aba [Releases do projeto](https://github.com/caue-r/PDF-Slicer/releases/tag/v1.0) e execute diretamente **sem precisar instalar Python**.
+> Baixe o arquivo `.exe` na aba [Releases do projeto](https://github.com/caue-r/PDF-Slicer/releases) e execute diretamente **sem precisar instalar Python**.
 
 ---
 
