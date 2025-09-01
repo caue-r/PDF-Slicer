@@ -1,56 +1,56 @@
 # PDF Slicer
 
-> Ferramenta experimental para **dividir arquivos PDF grandes em partes menores por tamanho (em MB)**.  
-> Ideal para quem precisa dividir PDFs pesados em partes menores para envio por e-mail ou armazenamento em serviços com limite de tamanho.
+> Experimental tool to **split large PDF files into smaller parts by size (in MB)**.  
+> Ideal for those who need to split heavy PDFs into smaller parts for email sending or storage in services with size limits.
 
 ---
 
-## ⚠️ Aviso
+## ⚠️ Warning
 
-> - Este projeto é **experimental** e **pode conter bugs**.  
-> - Use por sua conta e risco, deve funcionar na maioria dos casos.
-
----
-
-## Funcionalidades
-
-> ✅ Divide arquivos PDF em partes menores mantendo a integridade das páginas.  
-> ✅ Interface gráfica simples (Tkinter) para selecionar o PDF e a pasta de destino.  
-> ✅ Permite escolher o tamanho máximo (em MB) de cada parte.  
-> ✅ Gera arquivos nomeados automaticamente (`arquivo_parte1.pdf`, `arquivo_parte2.pdf`, ...).
+> - This project is **experimental** and **may contain bugs**.  
+> - Use at your own risk, it should work in most cases.
 
 ---
 
-## Como usar (Python)
+## Features
 
-> 1️⃣ Clone este repositório ou [baixe os arquivos manualmente](https://github.com/caue-r/PDF-Slicer/archive/refs/heads/main.zip).  
+> ✅ Splits PDF files into smaller parts while keeping page integrity.  
+> ✅ Simple graphical interface (Tkinter) to select the PDF and destination folder.  
+> ✅ Allows you to choose the maximum size (in MB) of each part.  
+> ✅ Automatically generates named files (`file_part1.pdf`, `file_part2.pdf`, ...).
+
+---
+
+## How to Use (Python)
+
+> 1️⃣ Clone this repository or [download the files manually](https://github.com/caue-r/PDF-Slicer/archive/refs/heads/main.zip).  
 > 
-> 2️⃣ Instale as dependências:
+> 2️⃣ Install the dependencies:  
 > ```bash
 > pip install PyPDF2
 > ```
 > 
-> 3️⃣ Execute:
+> 3️⃣ Run:  
 > ```bash
 > python pdfslicer.py
 > ```
 > 
-> 4️⃣ Selecione o PDF, a pasta de destino e o tamanho máximo por parte e clique em **Iniciar divisão**.
+> 4️⃣ Select the PDF, the destination folder, and the maximum size per part, then click **Start splitting**.
 
 ---
 
-## Como usar (Executável)
+## How to Use (Executable)
 
-> Baixe o arquivo `.exe` na aba [Releases do projeto](https://github.com/caue-r/PDF-Slicer/releases) e execute diretamente **sem precisar instalar Python**.
-
----
-
-## Contribuição
-
-> Pull requests e sugestões são bem-vindas.
+> Download the `.exe` file from the [project Releases page](https://github.com/caue-r/PDF-Slicer/releases) and run it directly **without needing to install Python**.
 
 ---
 
-## Licença
+## Contribution
 
-> Este projeto é experimental e sem garantia, sendo disponibilizado sob a [licença MIT](https://github.com/caue-r/PDF-Slicer/blob/main/LICENSE).
+> Pull requests and suggestions are welcome.
+
+---
+
+## License
+
+> This project is experimental and without warranty, and is available under the [MIT license](https://github.com/caue-r/PDF-Slicer/blob/main/LICENSE).  
