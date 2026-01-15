@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Slicer Web</title>
+  </head>
+  <body>
+    <h1>PDF Slicer</h1>
+    <p>Envie um PDF e escolha o tamanho maximo por parte (MB).</p>
+    <form method="post" enctype="multipart/form-data">
+      <div>
+        <label for="pdf_file">PDF de origem:</label>
+        <input id="pdf_file" name="pdf_file" type="file" accept="application/pdf" required />
+      </div>
+      <div>
+        <label for="max_mb">Tamanho maximo por parte (MB):</label>
+        <input id="max_mb" name="max_mb" type="number" min="1" step="0.1" value="150" required />
+      </div>
+      <div>
+        <button type="submit">Dividir PDF</button>
+      </div>
+    </form>
+  </body>
+</html>
